@@ -34,4 +34,4 @@
 8. Criar um programa que receba uma palavra e imprime no console letra por letra.
   - Nome do Arquivo -> __letraPorLetra.java__
 9. Crie um programa que recebe 10 valores e ao final imprima o maior número.
-  - Nome do Arquivo -> __EM DESENVOLVIMENTO__
+  - Nome do Arquivo -> __maiorNumero.java__
