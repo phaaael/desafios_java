@@ -8,17 +8,33 @@ public class jogoDaAdivinhacao {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		
-		System.out.println("Numero escondido, ACHE !!");
+		Random random = new Random();
 		
-		Random gerador = new Random();
+		int numero = random.nextInt(100);
 		
-        for (int i = 0; i < 1; i++) {
-        	int numeroEscondido = gerador.nextInt(100);
-        	for(int j = 10; j <= 0; j--) {
-        		System.out.println("Numero errado, restam: " + j + " chance");
-        			
-        		}
-        	}
+		System.out.println("Numero Escondido, Acerte !");
+		
+		System.out.println(numero);
+		
+		for(int chance = 10; chance > 0;) {
+			System.out.println("Chances -> " + chance);
+			
+			System.out.println("Digite o Numero:");
+			int numeroDigitado = input.nextInt();
+			
+			if(numeroDigitado == numero) {
+				System.out.println("Parabens ! Voce Ganhou !");
+				break;
+			} else if(numeroDigitado != numero) {
+				chance--;
+				if(chance == 0 ) {
+					System.out.println("Suas chances acabaram ! Sistema Finalizado !");
+				}
+			}  else {
+				System.out.println("Algo deu Errado ! Sistema Finalizado !");
+			}
+		}
+		
         input.close();
-        }
+	}
 }
