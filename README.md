@@ -13,6 +13,6 @@
 5. Criar um programa que leia o valor da base e da altura de um triângulo e calcule a área.
   - Nome do Arquivo -> __calculoAreaTriangulo.java__
 6. Criar um programa que resolve equações do segundo grau (ax2 + bx + c = 0) utilizando a fórmula de Bhaskara. Use como exemplo a = 1, b = 12 e c = -13. Encontre o delta
-  - Nome do Arquivo -> __bhaskara.java__
+  - Nome do Arquivo -> __formulaBhaskara.java__
 
 ## Desafios de Estrutura de Controle:
