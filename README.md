@@ -32,6 +32,6 @@
 7. Criar um programa que enquanto estiver recebendo números positivos, imprime no console a soma dos números inseridos, caso receba um número negativo, encerre o programa. Tente utilizar a estrutura do while.
   - Nome do Arquivo -> __somarNumeros.java__
 8. Criar um programa que receba uma palavra e imprime no console letra por letra.
-  - Nome do Arquivo -> __EM DESENVOLVIMENTO__
+  - Nome do Arquivo -> __letraPorLetra.java__
 9. Crie um programa que recebe 10 valores e ao final imprima o maior número.
   - Nome do Arquivo -> __EM DESENVOLVIMENTO__
