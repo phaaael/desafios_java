@@ -14,8 +14,6 @@ public class jogoDaAdivinhacao {
 		
 		System.out.println("Numero Escondido, Acerte !");
 		
-		System.out.println(numero);
-		
 		for(int chance = 10; chance > 0;) {
 			System.out.println("Chances -> " + chance);
 			
