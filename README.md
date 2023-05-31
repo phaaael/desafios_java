@@ -3,40 +3,42 @@
 ## Desafios de Fundamentos:
 
 1. Criar um programa que leia a temperatura em Fahrenheit e converta para Celsius.
-  - Nome do Arquivo -> __fahrenheitParaCelsius.java__
+  - Diretório -> __fahrenheitParaCelsius.java__
 2. Criar um programa que leia a temperatura em Celsius e converta para Fahrenheit.
-  - Nome do Arquivo -> __celsiusParaFahrenheit.java__
+  - Diretório -> __celsiusParaFahrenheit.java__
 3. Criar um programa que leia o peso e a altura do usuário e imprima no console o IMC.
-  - Nome do Arquivo -> __calculadoraIMC.java__
+  - Diretório -> __calculadoraIMC.java__
 4. Criar um programa que leia um valor e apresente os resultados ao quadrado e ao cubo do valor.
-  - Nome do Arquivo -> __potencia.java__
+  - Diretório -> __potencia.java__
 5. Criar um programa que leia o valor da base e da altura de um triângulo e calcule a área.
-  - Nome do Arquivo -> __calculoAreaTriangulo.java__
+  - Diretório -> __calculoAreaTriangulo.java__
 6. Criar um programa que resolve equações do segundo grau (ax2 + bx + c = 0) utilizando a fórmula de Bhaskara. Use como exemplo a = 1, b = 12 e c = -13. Encontre o delta
-  - Nome do Arquivo -> __formulaBhaskara.java__
+  - Diretório -> __formulaBhaskara.java__
 
 ## Desafios de Estrutura de Controle:
 
 1. Criar um programa que receba um número e verifique se ele está entre 0 e 10 e é par;
-  - Nome do Arquivo -> __verificacaoNumero.java__
+  - Diretório -> __verificacaoNumero.java__
 2. Criar um programa informa se o ano atual é um ano bissexto;
-  - Nome do Arquivo -> __anoBissexto.java__
+  - Diretório -> __anoBissexto.java__
 3. Criar um programa que receba duas notas parciais, calcular a média final. Se a nota do aluno for maior ou igual a 7.0 imprime no console "Aprovado", se a nota for menor que 7.0 e maior do que 4.0 imprime no console "Recuperação", caso contrário imprime no console "Reprovado".
-  - Nome do Arquivo -> __resultadoAluno.java__
+  - Diretório -> __resultadoAluno.java__
 4. Criar um programa que receba um número e diga se ele é um número primo.
-  - Nome do Arquivo -> __numeroPrimo.java__
+  - Diretório -> __numeroPrimo.java__
 5. Refatorar o exercício 04, utilizando a estrutura switch.
-  - Nome do Arquivo -> __numeroPrimoComSwitch.java__
+  - Diretório -> __numeroPrimoComSwitch.java__
 6. Jogo da adivinhação: Tentar adivinhar um número entre 0 - 100. Armazene um numero aleatório em uma variável. O Jogador tem 10 tentativas para adivinhar o número gerado. Ao final de cada tentativa, imprima a quantidade de tentativas restantes, e imprima se o número inserido é maior ou menor do que o número armazenado.
-  - Nome do Arquivo -> __jogoDaAdivinhacao.java__
+  - Diretório -> __jogoDaAdivinhacao.java__
 7. Criar um programa que enquanto estiver recebendo números positivos, imprime no console a soma dos números inseridos, caso receba um número negativo, encerre o programa. Tente utilizar a estrutura do while.
-  - Nome do Arquivo -> __somarNumeros.java__
+  - Diretório -> __somarNumeros.java__
 8. Criar um programa que receba uma palavra e imprime no console letra por letra.
-  - Nome do Arquivo -> __letraPorLetra.java__
+  - Diretório -> __letraPorLetra.java__
 9. Crie um programa que recebe 10 valores e ao final imprima o maior número.
-  - Nome do Arquivo -> __maiorNumero.java__
+  - Diretório -> __maiorNumero.java__
 
-## Desafios de Classes:
+## Desafios de Classes e Metodos:
 
-1. Criar uma classe para armazenar as informações dos produtos, Criar contrutores para receber e manipular as informações, como: Desconto e Desconto Especial ( GERENTE ).
-- Nome do Arquivo -> __classes/produto/ Produto.java e produtosTestes.java__
+1. Criar uma classe para criação dos produtos, podendo criar um desconto fixo ou não, ou o GERENTE aplicar um desconto especial.
+  - Diretório -> __classes_e_metodos/produto__
+2. Criar tres classes ( Jantar, Comida e Pessoa ), as classes Pessoa e Comida precisam receber o NOME e PESO para manipular os dados e a classe JANTAR, será a MAIN para iniciar o programa. Sendo assim, a cada vez que a pessoa comer a comida, ela deve engordar o mesmo peso do alimento, ou seja, João pesa 80 Kgs, ele comeu um alimento que pesa 1.8 Kgs, assim que ele acabar de comer, ele irá pesar 80 + 1.8 = 81.8 Kgs.
+  - Diretório -> __classes_e_metodos/jantar__
