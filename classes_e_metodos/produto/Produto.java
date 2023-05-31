@@ -27,4 +27,8 @@ public class Produto {
 	double precoComDesconto(double descontoGerente) {
 		return preco * ( 1 - desconto + descontoGerente);
 	}
+
+	String obterInformacaoFormatada() {
+		return "Produto -> " + nome + " | Valor -> R$" + preco + " | Desconto -> " + (desconto * 100) + "%";
+	}
 }
