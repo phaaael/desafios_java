@@ -35,3 +35,8 @@
   - Nome do Arquivo -> __letraPorLetra.java__
 9. Crie um programa que recebe 10 valores e ao final imprima o maior número.
   - Nome do Arquivo -> __maiorNumero.java__
+
+## Desafios de Classes:
+
+1. Criar uma classe para armazenar as informações dos produtos, Criar contrutores para receber e manipular as informações, como: Desconto e Desconto Especial ( GERENTE ).
+- Nome do Arquivo -> __classes/produto/ Produto.java e produtosTestes.java__
