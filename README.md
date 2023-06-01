@@ -42,3 +42,6 @@
   - Diretório -> __classes_e_metodos/produto__
 2. Criar tres classes ( Jantar, Comida e Pessoa ), as classes Pessoa e Comida precisam receber o NOME e PESO para manipular os dados e a classe JANTAR, será a MAIN para iniciar o programa. Sendo assim, a cada vez que a pessoa comer a comida, ela deve engordar o mesmo peso do alimento, ou seja, João pesa 80 Kgs, ele comeu um alimento que pesa 1.8 Kgs, assim que ele acabar de comer, ele irá pesar 80 + 1.8 = 81.8 Kgs.
   - Diretório -> __classes_e_metodos/jantar__
+
+## Desafios de Arrays e Colletions:
+### EM BREVE ...
